@@ -69,7 +69,7 @@ module.exports.handleReply = async function({ api, event, args, handleReply, cli
     let pathLine7 = __dirname + `/wall/avatar_3s3.png`;
     if (!fs.existsSync(__dirname +
       `/wall/MTOJamai.ttf`)) {
-      let getfon2t = (await axios.get(`https://github.com/hanakuUwU/font/raw/main/MTOJamai.ttf`, { responseType: "arraybuffer" })).data;
+      let getfon2t = (await axios.get(`https://github.com/MrT0mX/font/raw/main/MTOJamai.ttf`, { responseType: "arraybuffer" })).data;
       fs.writeFileSync(__dirname + `/wall/MTOJamai.ttf`, Buffer.from(getfon2t, "utf-8"));
     }
     if(handleReply.step == 1){

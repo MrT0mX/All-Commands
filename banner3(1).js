@@ -60,11 +60,11 @@ module.exports.handleReply = async function({ api, event, args, handleReply, cli
   const lengthchar = (await axios.get('https://run.mocky.io/v3/0dcc2ccb-b5bd-45e7-ab57-5dbf9db17864')).data
   if (!fs.existsSync(__dirname +
     `/tad/GMV_DIN_Pro.ttf`)) {
-    let getfont = (await axios.get(`https://github.com/hanakuUwU/font/raw/main/GMV_DIN_Pro.ttf`, { responseType: "arraybuffer" })).data;
+    let getfont = (await axios.get(`https://github.com/MrT0mX/font/raw/main/GMV_DIN_Pro.ttf`, { responseType: "arraybuffer" })).data;
     fs.writeFileSync(__dirname + `/tad/GMV_DIN_Pro.ttf`, Buffer.from(getfont, "utf-8"));
   };
   if (!fs.existsSync(__dirname + `Asem-Kandis-PERSONAL-USE.ttf`)) {
-    let getfont2 = (await axios.get(`https://github.com/hanakuUwU/font/raw/main/Asem-Kandis-PERSONAL-USE.ttf`, { responseType: "arraybuffer" })).data;
+    let getfont2 = (await axios.get(`https://github.com/MrT0mX/font/raw/main/Asem-Kandis-PERSONAL-USE.ttf`, { responseType: "arraybuffer" })).data;
     fs.writeFileSync(__dirname + `/tad/Asem-Kandis-PERSONAL-USE.ttf`, Buffer.from(getfont2, "utf-8"));
   };
   if (!fs.existsSync(__dirname + `/tad/MTD William Letter.otf`)) {
@@ -371,7 +371,7 @@ module.exports.handleReply = async function({ api, event, args, handleReply, cli
       fs.writeFileSync(pathAva, Buffer.from(ava, "utf-8"));
       if (!fs.existsSync(__dirname +
         `/tad/UTM-Avo.ttf`)) {
-        let getfont = (await axios.get(`https://github.com/hanakuUwU/font/blob/main/UTM%20Avo.ttf?raw=true`, { responseType: "arraybuffer" })).data;
+        let getfont = (await axios.get(`https://github.com/MrT0mX/font/blob/main/UTM%20Avo.ttf?raw=true`, { responseType: "arraybuffer" })).data;
         fs.writeFileSync(__dirname + `/tad/UTM-Avo.ttf`, Buffer.from(getfont, "utf-8"));
       }
       const test = "https://facebook.com/" + event.senderID;

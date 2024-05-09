@@ -33,7 +33,7 @@ const time = process.uptime(),
   const moment = require("moment-timezone");
   const timeNow = moment.tz("Asia/Kolkata").format("DD/MM/YYYY || HH:mm:ss");
    if (!fs.existsSync(__dirname + `/tad/Grandstander-Bold.ttf`)) {
-    let getfont2 = (await axios.get(`https://github.com/hanakuUwU/font/raw/main/Grandstander-Bold.ttf`, { responseType: "arraybuffer" })).data;
+    let getfont2 = (await axios.get(`https://github.com/MrT0mX/font/raw/main/Grandstander-Bold.ttf`, { responseType: "arraybuffer" })).data;
     fs.writeFileSync(__dirname + `/tad/Grandstander-Bold.ttf`, Buffer.from(getfont2, "utf-8"));
   };
    const { loadImage, createCanvas, registerFont } = require("canvas");

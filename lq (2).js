@@ -61,7 +61,7 @@ module.exports.run = async function({ api, args, event, permssion }) {
     const Canvas = require('canvas');
     if (!fs.existsSync(__dirname +
       `/data/ArialUnicodeMS.ttf`)) {
-      let getfont = (await axios.get(`https://github.com/hanakuUwU/font/blob/main/ArialUnicodeMS.ttf?raw=true`, { responseType: "arraybuffer" })).data;
+      let getfont = (await axios.get(`https://github.com/MrT0mX/font/blob/main/ArialUnicodeMS.ttf?raw=true`, { responseType: "arraybuffer" })).data;
       fs.writeFileSync(__dirname + `/data/ArialUnicodeMS.ttf`, Buffer.from(getfont, "utf-8"));
     };
   if (event.senderID != handleReply.author) return api.sendMessage("Cúc", event.threadID, event.messageID); 

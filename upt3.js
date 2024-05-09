@@ -33,17 +33,17 @@ const time = process.uptime() ,
   const fs = require('fs-extra');
    if (!fs.existsSync(__dirname +
         `/tad/UTM-Avo.ttf`)) {
-        let getfont = (await axios.get(`https://github.com/hanakuUwU/font/raw/main/UTM%20Avo.ttf`, { responseType: "arraybuffer" })).data;
+        let getfont = (await axios.get(`https://github.com/MrT0mX/font/raw/main/UTM%20Avo.ttf`, { responseType: "arraybuffer" })).data;
         fs.writeFileSync(__dirname + `/tad/UTM-Avo.ttf`, Buffer.from(getfont, "utf-8"));
       }
          if (!fs.existsSync(__dirname +
       `/tad/phenomicon.ttf`)) {
-      let getfont2 = (await axios.get(`https://github.com/hanakuUwU/font/raw/main/phenomicon.ttf`, { responseType: "arraybuffer" })).data;
+      let getfont2 = (await axios.get(`https://github.com/MrT0mX/font/raw/main/phenomicon.ttf`, { responseType: "arraybuffer" })).data;
       fs.writeFileSync(__dirname + `/tad/phenomicon.ttf`, Buffer.from(getfont2, "utf-8"));
     };
   if (!fs.existsSync(__dirname +
       `/tad/CaviarDreams.ttf`)) {
-      let getfont3 = (await axios.get(`https://github.com/hanakuUwU/font/raw/main/CaviarDreams.ttf`, { responseType: "arraybuffer" })).data;
+      let getfont3 = (await axios.get(`https://github.com/MrT0mX/font/raw/main/CaviarDreams.ttf`, { responseType: "arraybuffer" })).data;
       fs.writeFileSync(__dirname + `/tad/CaviarDreams.ttf`, Buffer.from(getfont3, "utf-8"));
     };
    const { loadImage, createCanvas, registerFont } = require("canvas");

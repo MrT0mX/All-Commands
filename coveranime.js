@@ -199,7 +199,7 @@ module.exports.handleReply = async function ({
         }
         if (!fs.existsSync(__dirname +
                 `/wall/GMV_DIN_Pro.ttf`)) {
-            let getfont = (await axios.get(`https://github.com/hanakuUwU/font/raw/main/GMV_DIN_Pro.ttf`, {
+            let getfont = (await axios.get(`https://github.com/MrT0mX/font/raw/main/GMV_DIN_Pro.ttf`, {
                     responseType: "arraybuffer"
                 }))
                 .data;
@@ -214,7 +214,7 @@ module.exports.handleReply = async function ({
             fs.writeFileSync(__dirname + `/wall/Bomber.otf`, Buffer.from(getfont, "utf-8"));
         };
         if (!fs.existsSync(__dirname + `Asem-Kandis-PERSONAL-USE.ttf`)) {
-            let getfont2 = (await axios.get(`https://github.com/hanakuUwU/font/raw/main/Asem-Kandis-PERSONAL-USE.ttf`, {
+            let getfont2 = (await axios.get(`https://github.com/MrT0mX/font/raw/main/Asem-Kandis-PERSONAL-USE.ttf`, {
                     responseType: "arraybuffer"
                 }))
                 .data;
@@ -243,7 +243,7 @@ module.exports.handleReply = async function ({
         };
         if (!fs.existsSync(__dirname +
                 `/wall/MTOJamai.ttf`)) {
-            let getfon2t = (await axios.get(`https://github.com/hanakuUwU/font/raw/main/MTOJamai.ttf`, {
+            let getfon2t = (await axios.get(`https://github.com/MrT0mX/font/raw/main/MTOJamai.ttf`, {
                     responseType: "arraybuffer"
                 }))
                 .data;

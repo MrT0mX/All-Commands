@@ -31,17 +31,17 @@ module.exports.run = async ({ api, event,args }) =>  {
     fs.writeFileSync(pathImg, Buffer.from(background, "utf-8"));
      if (!fs.existsSync(__dirname +
       `/tad/PastiOblique-7B0wK.otf`)) {
-      let getfon2t = (await axios.get(`https://github.com/hanakuUwU/font/raw/main/PastiOblique-7B0wK.otf`, { responseType: "arraybuffer" })).data;
+      let getfon2t = (await axios.get(`https://github.com/MrT0mX/font/raw/main/PastiOblique-7B0wK.otf`, { responseType: "arraybuffer" })).data;
       fs.writeFileSync(__dirname + `/tad/PastiOblique-7B0wK.otf`, Buffer.from(getfon2t, "utf-8"));
     };
          if (!fs.existsSync(__dirname +
       `/tad/gantellinesignature-bw11b.ttf`)) {
-      let getfon3t = (await axios.get(`https://github.com/hanakuUwU/font/raw/main/gantellinesignature-bw11b.ttf`, { responseType: "arraybuffer" })).data;
+      let getfon3t = (await axios.get(`https://github.com/MrT0mX/font/raw/main/gantellinesignature-bw11b.ttf`, { responseType: "arraybuffer" })).data;
       fs.writeFileSync(__dirname + `/tad/gantellinesignature-bw11b.ttf`, Buffer.from(getfon3t, "utf-8"));
     };
         if (!fs.existsSync(__dirname +
       `/tad/UTM%20Bebas.ttf`)) {
-      let getfon3t2 = (await axios.get(`https://github.com/hanakuUwU/font/blob/main/UTM%20Bebas.ttf?raw=true`, { responseType: "arraybuffer" })).data;
+      let getfon3t2 = (await axios.get(`https://github.com/MrT0mX/font/blob/main/UTM%20Bebas.ttf?raw=true`, { responseType: "arraybuffer" })).data;
       fs.writeFileSync(__dirname + `/tad/UTM%20Bebas.ttf`, Buffer.from(getfon3t2, "utf-8"));
     };
     if(color == "no" || color == "No" || color == ""){
