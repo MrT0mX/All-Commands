@@ -2,8 +2,8 @@ module.exports.config = {
     name:"fu",
     version: "1.1.1",
     hasPermssion: 0,
-    credits: "John Lester",
-    description: "bebetime AI chat by John Lester",
+    credits: "MrTomXxX",
+    description: "bebetime AI chat by MrTomXxX",
     commandCategory: "Single (Lonely)",
     usages: "[question] or [on,off]",
     cooldowns: 5
