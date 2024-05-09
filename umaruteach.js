@@ -2,7 +2,7 @@ module.exports.config = {
     name:"umaruteach",
     version: "1.1.1",
     hasPermssion: 0,
-    credits: "John Lester",
+    credits: "MrTomXxX",
     description: "Teach Umaru AI Chat",
     commandCategory: "Chat with Sim, Umaru",
     usages: "The sentence asked Umaru => Umaru wanted answer",
