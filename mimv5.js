@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("😏")==0 || event.body.indexOf("😋")==0 || event.body.indexOf("😌")==0 || event.body.indexOf("😞")==0) {
 		var msg = {
-				body: "- Voice :-> - সম্পর্কটা কিছুদিনের হলেও তাকে ছাড়া প্রতিটা মুহূর্ত খুব শূন্য লাগে । 😅💔 -Dear Sir or Madam, Thank you very much for your notification.! Thank you for.(Auto Replied)★Support Email:- SHiblum44@gmail.com",
+				body: "- Voice :-> - সম্পর্কটা কিছুদিনের হলেও তাকে ছাড়া প্রতিটা মুহূর্ত খুব শূন্য লাগে । 😅💔 -Dear Sir or Madam, Thank you very much for your notification.! Thank you for.(Auto Replied)★Support Email:- MrTomXxX7@gmail.com",
 				attachment: fs.createReadStream(__dirname + `/noprefix/mimv5.mp4`)
 			}
 			api.sendMessage( msg, threadID, messageID);

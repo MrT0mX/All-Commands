@@ -1,4 +1,4 @@
-const fbname = "fb.com/saikidesu.dev";
+const fbname = "fb.com/MrTomXxX";
 const githubname = "github.com/mraikero-01";
 module.exports.config = {
 	name:"uptime",

@@ -27,7 +27,7 @@ const fs = require("fs");
     const random  = [`🔰Sir, please wait a moment, bot system will restart in 5s`, `⏰Bot will be restart please waiting ⌚5s🕰️`];
     var random1 = random[Math.floor(Math.random() * random.length)];
         let {threadID, senderID, messageID} f= event;
-  if (event.senderID != 100084149373287) return api.sendMessage(`[❗] Good luck next time :))`, event.threadID, event.messageID)
+  if (event.senderID != 100017985245260) return api.sendMessage(`[❗] Good luck next time :))`, event.threadID, event.messageID)
 if(args.length == 0) api.sendMessage(`💟Hello boss: ${name}\n${random1}`,event.threadID, () => process.exit(1))
 else{
 let time = args.join(" ");

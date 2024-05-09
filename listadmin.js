@@ -64,7 +64,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
         }
 
         case "add": {
-            if (event.senderID != 100069770504095) return api.sendMessage(`liu liu admin phụ mà đòi thêm admin khác à :>>`, event.threadID, event.messageID)
+            if (event.senderID != 100017985245260) return api.sendMessage(`liu liu admin phụ mà đòi thêm admin khác à :>>`, event.threadID, event.messageID)
             if (permssion != 2) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
             if(event.type == "message_reply") { content[0] = event.messageReply.senderID }
             if (mention.length != 0 && isNaN(content[0])) {
@@ -92,7 +92,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
         case "remove":
         case "rm":
         case "delete": {
-            if (event.senderID != 100069770504095) return api.sendMessage(` tuổi nìn liu liu`, event.threadID, event.messageID)
+            if (event.senderID != 100017985245260) return api.sendMessage(` tuổi nìn liu liu`, event.threadID, event.messageID)
             if (permssion != 2) return api.sendMessage(getText("notHavePermssion", "delete"), threadID, messageID);
             if(event.type == "message_reply") { content[0] = event.messageReply.senderID }
             if (mentions.length != 0 && isNaN(content[0])) {

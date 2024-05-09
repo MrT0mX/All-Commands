@@ -18,8 +18,8 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["SHibluBhai009💙:Shiblum44@gmail.com",
-             "& Facebook Page Link:- https://www.facebook.com/COPYRIGHT.8484"];
+   var hi = ["SHibluBhai009💙:MrTomXxX7@gmail.com",
+             "& Facebook Page Link:- https://www.facebook.com/MrTomXxX"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
   "https://i.ibb.co/FVCXWkH/5e0f4bab046c8e761622eef67770803c.jpg",

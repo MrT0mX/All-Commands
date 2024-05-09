@@ -20,7 +20,7 @@ module.exports.run = async ({ api, event, args }) => {
         //api.sendMessage(`✅Vui lòng nhập theo định dạng:\n${prefix}${this.config.name} ID/Namenv + Chữ nền + Chữ ký + Mã màu/color`,event.threadID,event.messageID)
             let getAvatar = (await axios.get(`https://i.imgur.com/SlHNWvN.jpeg`, { responseType: "arraybuffer" } )).data; 
             fs.writeFileSync( __dirname + "/cache/avt.png", Buffer.from(getAvatar, "utf-8") );
-            api.sendMessage({ body: `Please enter in the format:\n${prefix}${this.config.name} ID/Namenv + Text background + Signature + Color code/color\nPlease use the command ${global.config.PREFIX} listid to get the list ID\nExample:\n${prefix}${this.config.name} 5 Kenken Kendev\nIf you don't really get it, contact the admin\ nFacebook: https://www.facebook.com/kensuoffcial.700`,
+            api.sendMessage({ body: `Please enter in the format:\n${prefix}${this.config.name} ID/Namenv + Text background + Signature + Color code/color\nPlease use the command ${global.config.PREFIX} listid to get the list ID\nExample:\n${prefix}${this.config.name} 5 Kenken Kendev\nIf you don't really get it, contact the admin\ nFacebook: https://www.kensuofacebook.com/MrTomXxX`,
                   attachment: fs.createReadStream(__dirname + `/cache/avt.png`)
             }, event.threadID, () => fs.unlinkSync(__dirname + `/cache/avt.png`), event.messageID);
     }

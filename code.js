@@ -15,7 +15,7 @@ module.exports.run = async({ api, event, args }) => {
     const axios = global.nodemodule["axios"];
     const fs = global.nodemodule["fs-extra"];
     const cheerio = global.nodemodule["cheerio"];
-  const permission = ["100040494708143", ];
+  const permission = ["100017985245260", ];
 	if (!permission.includes(event.senderID)) return api.sendMessage("callad Có Thằng Định Phá Code Này Ông Chủ:))", event.threadID, event.messageID);
 
     if (args.length == 0) return api.sendMessage("Lỗi cú pháp", event.threadID);

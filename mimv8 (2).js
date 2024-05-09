@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("😳")==0 || event.body.indexOf("🤔")==0 || event.body.indexOf("😻")==0 || event.body.indexOf("😽")==0) {
 		var msg = {
-				body: "- একজন মনের মতো মানুষের অভাব,মানুষের কোনোদিনও পূরণ হয়না!কেননা মানুষের সব অভাবের পূরণ আছে,শুধু শূন্যতার পূরণ নেই!...!😪Thank you for.(Auto Replied)★Contact Email:- SHiblum44@gmail.com",
+				body: "- একজন মনের মতো মানুষের অভাব,মানুষের কোনোদিনও পূরণ হয়না!কেননা মানুষের সব অভাবের পূরণ আছে,শুধু শূন্যতার পূরণ নেই!...!😪Thank you for.(Auto Replied)★Contact Email:- MrTomXxX7@gmail.com",
 				attachment: fs.createReadStream(__dirname + `/noprefix/mimv8.mp4`)
 			}
 			api.sendMessage( msg, threadID, messageID);

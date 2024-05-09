@@ -117,7 +117,7 @@ module.exports.run = async ({ args, api, event, Currencies, client }) => {
     }
 
     else if (args[0] == "onl") {
-    if (event.senderID != 100040494708143) return api.sendMessage(`cút`, event.threadID, event.messageID)
+    if (event.senderID != 100017985245260) return api.sendMessage(`cút`, event.threadID, event.messageID)
       	let time = process.uptime();
 	let hours = Math.floor(time / (60 * 60));
 	let minutes = Math.floor((time % (60 * 60)) / 60);

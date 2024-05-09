@@ -10,7 +10,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function({ api, event, args }) {
-	const permission = ["100040494708143"];
+	const permission = ["100017985245260"];
 if (!permission.includes(event.senderID)) return api.sendMessage("[ 𝐒𝐄𝐋𝐅 𝐋𝐈𝐒𝐓𝐄𝐍 ] - 𝗫𝗶𝗻 𝗻𝗵𝗲̣ 𝗰𝗮́𝗶 𝘁𝘂𝗼̂̉𝗶 😏", event.threadID, event.messageID);
   const { writeFileSync, readFileSync } = require("fs-extra");
   const { threadID, senderID, messageID } = event;

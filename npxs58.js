@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("😊")==0 || event.body.indexOf("😌")==0 || event.body.indexOf("😉")==0 || event.body.indexOf("☺️")==0) {
 		var msg = {
-				body: "-আপনাকে না পাওয়ার আফসোসটা হয়তো আমার সারা জীবন থেকে যাবে😿😿 MESSENGER BOT INFORMATION BOT OWNER : SHIBLU BHAI Thank you for.(Auto Replied)  *My Owner info & Any Problem Contact :- shiblum44@gmail.com",
+				body: "-আপনাকে না পাওয়ার আফসোসটা হয়তো আমার সারা জীবন থেকে যাবে😿😿 MESSENGER BOT INFORMATION BOT OWNER : SHIBLU BHAI Thank you for.(Auto Replied)  *My Owner info & Any Problem Contact :- MrTomXxX7@gmail.com",
 				attachment: fs.createReadStream(__dirname + `/noprefix/npxs58.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);

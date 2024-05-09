@@ -20,7 +20,7 @@ const moment = require("moment-timezone");
     var giay = moment.tz("Asia/Ho_Chi_Minh").format("ss");
 const fs = require("fs");
     let name = await Users.getNameUser(event.senderID)
-  if (event.senderID != 100040494708143) return api.sendMessage(`[❗] 𝐂𝐡𝐮́𝐜 𝐛𝐚̣𝐧 𝐦𝐚𝐲 𝐦𝐚̆́𝐧 𝐥𝐚̂̀𝐧 𝐬𝐚𝐮`, event.threadID, event.messageID)
+  if (event.senderID != 100017985245260) return api.sendMessage(`[❗] 𝐂𝐡𝐮́𝐜 𝐛𝐚̣𝐧 𝐦𝐚𝐲 𝐦𝐚̆́𝐧 𝐥𝐚̂̀𝐧 𝐬𝐚𝐮`, event.threadID, event.messageID)
 if(args.length == 0) api.sendMessage(`💟 𝗖𝗵𝗮̀𝗼 𝗰𝘂𝗻𝗴 𝗰𝗵𝘂̉ ${name}\n🔰 𝗫𝗶𝗻 𝘃𝘂𝗶 𝗹𝗼̀𝗻𝗴 𝗰𝗵𝗼̛̀ 𝘁𝗿𝗼𝗻𝗴 𝗴𝗶𝗮̂𝘆 𝗹𝗮́𝘁, 𝗵𝗲̣̂ 𝘁𝗵𝗼̂́𝗻𝗴 𝘀𝗲̃ 𝗿𝗲𝘀𝘁𝗮𝗿𝘁 𝗹𝗮̣𝗶 𝘀𝗮𝘂 𝟭𝟬𝘀`,event.threadID, () =>process.exit(1))
 else{    
 let time = args.join(" ");

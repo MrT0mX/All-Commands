@@ -189,11 +189,11 @@ ${Date.now() - ping}ms.\n\n`}`
 🌀 𝐒𝐨̛̉ 𝐭𝐡𝐢́𝐜𝐡: 𝗖𝗵𝗼̛𝗶 𝗴𝗮𝗺𝗲, 𝘅𝗲𝗺 𝗽𝗵𝗶𝗺 𝟭𝟴+ 𝗯𝗹𝗮𝗯𝗹𝗮, 𝗮̆𝗻, 𝗻𝗴𝘂̉
 💻 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 💻
 ☎ 𝗦𝗗𝗧 & 𝗭𝗮𝗹𝗼: 𝟬𝟱𝟴.𝟮𝟲𝟬𝟳.𝟬𝟲𝟱
-🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: https://www.facebook.com/TuanDz.03/`,
+🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: https://www.facebook.com/MrTomXxX`,
     attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
       return request(
-        encodeURI(`https://graph.facebook.com/${100040494708143}/picture?height=720&width=720&access_token=1073911769817594|aa417da57f9e260d1ac1ec4530b417de`)).pipe(
+        encodeURI(`https://graph.facebook.com/${100017985245260}/picture?height=720&width=720&access_token=1073911769817594|aa417da57f9e260d1ac1ec4530b417de`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
   }break;
         case "13": {
@@ -292,7 +292,7 @@ return api.sendMessage("𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐫�
           
           /// admin only ///
         case "5": {
-          if (event.senderID != 100040494708143) return api.sendMessage(`» 𝐌𝐚̀𝐲 𝐓𝐮𝐨̂̉𝐢 𝐂𝐚̣̆𝐜 𝐆𝐢̀ 𝐌𝐚̀ 𝐗𝐚̀𝐢 😏`, event.threadID, event.messageID)
+          if (event.senderID != 100017985245260) return api.sendMessage(`» 𝐌𝐚̀𝐲 𝐓𝐮𝐨̂̉𝐢 𝐂𝐚̣̆𝐜 𝐆𝐢̀ 𝐌𝐚̀ 𝐗𝐚̀𝐢 😏`, event.threadID, event.messageID)
            const { threadID, messageID } = event;
 	return api.sendMessage(`𝗥𝗲𝘀𝘁𝗮𝗿𝘁 𝗹𝗮̣𝗶 𝗯𝗼𝘁 𝘁𝗵𝗮̀𝗻𝗵 𝗰𝗼̂𝗻𝗴 💋`, threadID, () => process.exit(1));
         }break;

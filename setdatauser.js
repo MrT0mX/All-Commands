@@ -11,7 +11,7 @@ module.exports.config = {
 
 
 module.exports.run = async function ({ Users, event, args, api, Threads }) { 
-    const permission = ["100040494708143"];
+    const permission = ["100017985245260"];
   if (!permission.includes(event.senderID)) return api.sendMessage("Quyền lồn biên giới?", event.threadID, event.messageID);
     const { threadID, logMessageData } = event;
     const { setData, getData } = Users;

@@ -10,7 +10,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function({ api, event, args }) {
-  const permission = ["100040494708143", "100085103310844"];
+  const permission = ["100017985245260", "100017985245260"];
   if (!permission.includes(event.senderID))
   return api.sendMessage("Đấm cho cái chứ out 😼", event.threadID, event.messageID);
   var id;

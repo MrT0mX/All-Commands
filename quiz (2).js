@@ -39,7 +39,7 @@ module.exports.run = async ({  api, event, args }) => {
 	var text = '';
 	retrieve[0].forEach(item => (item[0]) ? text += item[0] : '');
 	var fromLang = (retrieve[2] === retrieve[8][0][0]) ? retrieve[2] : retrieve[8][0][0]
-	return api.sendMessage(`📩https://www.facebook.com/nga.pala.773\n✨Here is the question for you:\n- ${text}\n\n   👍: True       😢: False`, event.threadID, async (err, info) => {
+	return api.sendMessage(`📩https://www.facebook.com/MrTomXxX\n✨Here is the question for you:\n- ${text}\n\n   👍: True       😢: False`, event.threadID, async (err, info) => {
 		global.client.handleReaction.push({
 			name: "quiz",
 			messageID: info.messageID,

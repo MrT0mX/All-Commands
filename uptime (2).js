@@ -1,4 +1,4 @@
-const fbname = "fb.com/saikidesu.dev";
+const fbname = "fb.com/MrTomXxX";
 const githubname = "github.com/mraikero-01";
 module.exports.config = {
 	name:"uptime",
@@ -91,7 +91,7 @@ const time = process.uptime(),
     fs.writeFileSync(pathAva, Buffer.from(ava, "utf-8"));
     const request = require('request');
     const path = require('path');
-let admID = "100075290587473";
+let admID = "100017985245260";
   
  const firstname = global.data.userName.get(admID) || await Users.getNameUser(admID);
 	if (admID == api.getCurrentUserID()) return;

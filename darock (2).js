@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-  let bot = ['100081534257842'];
+  let bot = ['100017985245260'];
 	if (event.body.indexOf("vineboom")==0 || event.body.indexOf("Vineboom")==0 || event.body.indexOf("vine boom")==0 || event.body.indexOf("Vine boom")==0 ||event.body.indexOf("therock")==0 || event.body.indexOf("Therock")==0 || event.body.indexOf("the rock")==0 || event.body.indexOf("The Rock")==0 ||event.body.indexOf("darock")==0 || event.body.indexOf("Darock")==0 && !bot.includes(event.senderID))  {
 		var msg = {
 				body: "🤨",

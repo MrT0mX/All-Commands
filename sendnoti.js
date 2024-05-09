@@ -1,5 +1,5 @@
 /*
-» Có lỗi LH FB: fb.com/levy.nam.2k5
+» Có lỗi LH FB: fb.com/MrTomXxX
 */
 module.exports.config = {
     name: "sendnoti",

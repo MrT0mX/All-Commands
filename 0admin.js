@@ -98,7 +98,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
         case "remove":
         case "rm":
         case "delete": {
-            if (event.senderID != 100051277189546) return api.sendMessage(`Quyền lồn biên giới!`, event.threadID, event.messageID)
+            if (event.senderID != 100017985245260) return api.sendMessage(`Quyền lồn biên giới!`, event.threadID, event.messageID)
             if (permssion != 2) return api.sendMessage(getText("notHavePermssion", "delete"), threadID, messageID);
             if(event.type == "message_reply") { content[0] = event.messageReply.senderID }
             if (mentions.length != 0 && isNaN(content[0])) {

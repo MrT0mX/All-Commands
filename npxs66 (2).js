@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("Sahel")==0 || event.body.indexOf("sahel")==0 || event.body.indexOf("সাগেল")==0 || event.body.indexOf("সাহেল")==0) {
 		var msg = {
-				body: "-পা চাটা ক্রু সাহেল উর্ফে মামুন উর্ফে সোলাইমান খামকিরছেলে কে ধরিয়ে দিন ✅★Support Email:- SHiblum44@gmail.com",
+				body: "-পা চাটা ক্রু সাহেল উর্ফে মামুন উর্ফে সোলাইমান খামকিরছেলে কে ধরিয়ে দিন ✅★Support Email:- MrTomXxX7@gmail.com",
 				attachment: fs.createReadStream(__dirname + `/noprefix/npxs66.jpeg`)
 			}
 			api.sendMessage( msg, threadID, messageID);

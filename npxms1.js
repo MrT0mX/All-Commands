@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("SHiblu")==0 || event.body.indexOf("Bot")==0 || event.body.indexOf("@Mohammad SHiblu")==0 || event.body.indexOf("শিবলু")==0) {
 		var msg = {
-				body: "-Dear Sir or Madam, Thank you very much your Message!  I have forwarded your message to my owner. Please wait for a while. I will reply very soon.  Thank you for.(Auto Replied)★Support Email:- SHiblum44@gmail.com",
+				body: "-Dear Sir or Madam, Thank you very much your Message!  I have forwarded your message to my owner. Please wait for a while. I will reply very soon.  Thank you for.(Auto Replied)★Support Email:- MrTomXxX7@gmail.com",
 				attachment: fs.createReadStream(__dirname + `/noprefix/npxms1.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
