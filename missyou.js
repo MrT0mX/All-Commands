@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "miss you",
   version: "7.3.1",
 	hasPermssion: 0,
-	credits: "𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩", 
+	credits: "MrTomXxX", 
 	description: "Just Respond",
 	commandCategory: "no prefix",
     cooldowns: 5, 

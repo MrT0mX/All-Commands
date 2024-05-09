@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "not_stonk",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩",
+	credits: "MrTomXxX",
 	description: "put in the notstonk meme",
 	commandCategory: "edit-img",
 	usages: "[blank or tag]",
@@ -15,7 +15,7 @@ module.exports.run = async ({ event, api, args, Users }) => {
   const Discord = global.nodemodule['discord.js'];
   const request = global.nodemodule["node-superfetch"];
   const fs = global.nodemodule["fs-extra"];
-  if (this.config.credits != '𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩') {
+  if (this.config.credits != 'MrTomXxX') {
         console.log('\x1b[33m[ WARN ]\x1b[37m » Change credits to your mothers dick, bitch:))'+ global.config.BOTNAME + ' change credits modules "' + this.config.name + '"');
         return api.sendMessage('[ WARN ] Detect bot operator ' , event.threadID, event.messageID);
       }

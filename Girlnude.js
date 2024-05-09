@@ -2,7 +2,7 @@ module.exports.config = {
   name: "girlnude",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩",
+  credits: "MrTomXxX",
   description: "Random Nude Photo Nude is very beautiful and eye-pleasing (Note This is a photo command 18+ Consider Before Using)",
   commandCategory: "nsfw",
   usages: "girlnude",

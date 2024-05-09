@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "rank",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩",
+	credits: "MrTomXxX",
 	description: "Get your current rank on the bot system with a frame based on your level, remake rank_card from canvacord",
 	commandCategory: "Group",
 	cooldowns: 5,

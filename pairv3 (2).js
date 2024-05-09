@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "pairv3",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩",
+	credits: "MrTomXxX",
 	description: "Pairing Version 3",
 	commandCategory: "Picture",
 	cooldowns: 5,

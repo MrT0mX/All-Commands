@@ -4,7 +4,7 @@ module.exports.config = {
 	name:"uptv2",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩",
+	credits: "MrTomXxX",
 	description: "Random ảnh theo api - uptime",
 	commandCategory: "Nhóm",
 	cooldowns: 3,
@@ -116,7 +116,7 @@ let a = await loadImage(pathAva)
     ctx.save();
     ctx.font = "350px Grandstander";
     ctx.fillStyle = "#000"
-    ctx.fillText("𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩", canvas.width / 2 - 660, 1000);
+    ctx.fillText("MrTomXxX", canvas.width / 2 - 660, 1000);
     ctx.fillText(`${z_1}:${x_1}:${y_1}`, canvas.width / 2 - 630, 2000);
     ctx.restore();
     ctx.save();

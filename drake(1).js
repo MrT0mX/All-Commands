@@ -2,7 +2,7 @@ module.exports.config = {
   name: "drake",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩",
+  credits: "MrTomXxX",
   description: "drake",
   commandCategory: "edit-img",
   usages: "[text 1] | [text 2]",

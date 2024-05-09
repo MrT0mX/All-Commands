@@ -2,7 +2,7 @@ module.exports.config = {
   name: "punch",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩",
+  credits: "MrTomXxX",
   description: "punch the friend tag",
   commandCategory: "general",
   usages: "punch [Tag someone you want to punch]",

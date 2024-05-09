@@ -2,7 +2,7 @@ module.exports.config = {
   name: "kmgv3",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩",
+  credits: "MrTomXxX",
   description: "Memes on kusman lunttak Ka-fiirmg by Dark Boiis",
   commandCategory: "Random-IMG",
   usages: "panclose",

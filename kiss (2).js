@@ -4,7 +4,7 @@ module.exports.config = {
   name: "kiss",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩",
+  credits: "MrTomXxX",
   description: "Kiss the friend tag",
   commandCategory: "anime",
   usages: "kiss [Tag someone you need Kissing]",

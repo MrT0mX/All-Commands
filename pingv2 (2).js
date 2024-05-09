@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "pingv2",
 	version: "0.0.3",
 	hasPermssion: 1,
-	credits: "𝐃𝐚𝐫𝐤 𝐑𝐮𝐥𝐞𝐱 𝐊𝐢𝐧𝐠 𝐀𝐧𝐮𝐩",
+	credits: "MrTomXxX",
 	description: "Tag all members",
 	commandCategory: "system",
 	usages: "[Text]",
